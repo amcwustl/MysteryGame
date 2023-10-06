@@ -381,8 +381,8 @@ function alibiClick() {
     user.Alexander = true;
     user.updateLocalStorage();
   } else if (jonathan === true) {
-    displayConversation(jonathanVanDyke.alibiConversation);
-    user.jonathanAlibi = jonathanVanDyke.additionalAlibi;
+    displayConversation(jonathanVandke.alibiConversation);
+    user.jonathanAlibi = jonathanVandke.additionalAlibi;
     user.Jonathan = true;
     user.updateLocalStorage();
   } else if (wallace === true) {
@@ -420,8 +420,8 @@ function evidenceClick() {
     user.Alexander = true;
     user.updateLocalStorage();
   } else if (jonathan === true) {
-    displayConversation(jonathanVanDyke.evidenceConversation);
-    user.jonathanEvidence = jonathanVanDyke.additionalEvidence;
+    displayConversation(jonathanVandke.evidenceConversation);
+    user.jonathanEvidence = jonathanVandke.additionalEvidence;
     user.Jonathan = true;
     user.updateLocalStorage();
   } else if (wallace === true) {
@@ -512,7 +512,7 @@ function jonathanAccusation() {
     let wrongGuess = document.createElement('h2');
     wrongGuess.innerText = `Sorry, you got it wrong. You have ${guesses - 1} guesses left.`;
     playerSpeechElement.appendChild(wrongGuess);
-    displayConversation(jonathanVanDyke.accusationExplanation);
+    displayConversation(jonathanVandke.accusationExplanation);
     guesses --;
   }
 }
@@ -548,7 +548,7 @@ function leonardAccusation() {
     let correctGuess = document.createElement('h2');
     correctGuess.innerText = 'Great job detective! You solved the mystery.';
     playerSpeechElement.appendChild(correctGuess);
-    displayConversation(leonardVanDyke.accusationExplanation);
+    displayConversation(leonardVandke.accusationExplanation);
     guesses --;
   }
 }
@@ -565,21 +565,21 @@ const claraDeveraux = {
   image: '../img/clara.png',
 
   evidence: 'Found paint chips on her dress that match the color palette of the stolen painting.',
-  additionalEvidence: 'Clearly disgruntled by my interview, the paint chips are allegedly from a piece she did to network herself more commissions. There is also a sketch of the stolen painting found in her sketchbook, suggesting she had a keen interest in it, but enough of an interest to steal it? Her resentment toward Van Dyke is palpable, but her artistic admiration for the stolen painting makes her involvement in its theft implausible.',
+  additionalEvidence: 'Clearly disgruntled by my interview, the paint chips are allegedly from a piece she did to network herself more commissions. There is also a sketch of the stolen painting found in her sketchbook, suggesting she had a keen interest in it, but enough of an interest to steal it? Her resentment toward Van dke is palpable, but her artistic admiration for the stolen painting makes her involvement in its theft implausible.',
 
   alibi: 'Was seen in the dining area before the estimated time of the murder, but not eating.',
   additionalAlibi: 'She claims she was at the dinner party until near midnight then retired to her room, naming the Steward as an alibi. My assistant interviewed him and he corroborates her story. She noted that he seemed honest, and we have no reason at this time to believe he\'s being untruthful. She left me with a cryptic warning as I left, she may know more than she\'s leading on.',
 
-  assistantNotes: 'Clara held a grudge against Van Dyke for trying to ruin her career. Is that enough of a motive? And does she have a strong alibi?',
+  assistantNotes: 'Clara held a grudge against Van dke for trying to ruin her career. Is that enough of a motive? And does she have a strong alibi?',
 
 
-  accusationExplanation: ['Clara\'s resentment towards Van Dyke is clear, and her interest in the painting is undeniable. However, she has a strong alibi. The steward vouches for her presence in her quarters during the estimated time of the murder. As well as her passion for art which seems more towards creation rather than destruction or theft. Her guilt is highly unlikely.'],
+  accusationExplanation: ['Clara\'s resentment towards Van dke is clear, and her interest in the painting is undeniable. However, she has a strong alibi. The steward vouches for her presence in her quarters during the estimated time of the murder. As well as her passion for art which seems more towards creation rather than destruction or theft. Her guilt is highly unlikely.'],
 
   evidenceConversation: [
     'Det. Blythe: Good morning, Miss Deveraux, do you mind if I asked you some questions, maybe take a look around your quarters? I\'m sure you\'ve heard about what happened last night.',
     'Miss Deveraux: I did hear, what a tragic loss. And certainly, make yourself at home, it seems you\'re going to regardless.',
     'Det. Blythe: Can you explain those paint chips on your dress to me? It appears you\'ve been handling a dry painting.',
-    'Miss Deveraux: Oh my, what a keen eye... but maybe not so much a keen mind? I\'m a struggling artist darling... I\'ve got to pay my way somehow, after Van Dyke tried to destroy my career.',
+    'Miss Deveraux: Oh my, what a keen eye... but maybe not so much a keen mind? I\'m a struggling artist darling... I\'ve got to pay my way somehow, after Van dke tried to destroy my career.',
     'Det. Blythe: Paying your way by stealing priceless paintings, maybe?',
     'Miss Deveraux: Hardly... I heard Alexander Petrov was going to be aboard, and since he\'s on the committee overseeing the new National Art Exhibit I figured I could grease the wheels to get prime space of the gallery. So I did a portrait of his wife and daughter.',
     'Det. Blythe: Why is there a sketch of the stolen painting in your sketchbook then?',
@@ -595,7 +595,7 @@ const claraDeveraux = {
     'Det. Blythe: Can anyone vouch for you\'r whereabouts after you left the party?',
     'I\'m sure the steward would recall, maybe ask him? He escorted me back.',
     'Det. Blythe: Thank you for your cooperation, Miss Deveraux.',
-    'I don\'t think this clears me of any suspicion, does it?... Leonard Van Dyke is hardly the man he portrays to everyone else. I\'m sure you\'ll see that soon enough.',
+    'I don\'t think this clears me of any suspicion, does it?... Leonard Van dke is hardly the man he portrays to everyone else. I\'m sure you\'ll see that soon enough.',
   ],
 };
 
@@ -606,8 +606,8 @@ const margueriteFontaine = {
   role: 'Disgruntled Artist',
   image: '../img/marguerite.png',
 
-  evidence: 'Found a document revealing that Marguerite had a large debt to Van Dyke',
-  additionalEvidence: 'Marguerite maintains her innocence, stating she has no reason to harm Leonard despite their differences and the alleged debt. Marguerite denies any knowledge of the broken pearl necklace found near Leonard Van Dyke\'s room, claiming it was one of her missing necklaces and that she may be being framed.',
+  evidence: 'Found a document revealing that Marguerite had a large debt to Van dke',
+  additionalEvidence: 'Marguerite maintains her innocence, stating she has no reason to harm Leonard despite their differences and the alleged debt. Marguerite denies any knowledge of the broken pearl necklace found near Leonard Van dke\'s room, claiming it was one of her missing necklaces and that she may be being framed.',
 
   alibi: 'No one saw Marguerite during the estimated time of the crime.',
   additionalAlibi: 'Marguerite refused to disclose her whereabouts, asserting her right to privacy. Her lack of cooperation does seem suspicious but she asserts the investigation into her as a wild goose chase. Maybe she was up to something else entirely?',
@@ -617,13 +617,13 @@ const margueriteFontaine = {
   evidenceConversation: [
     'Det. Blythe: Morning Mrs. Fontaine I\'m Detective Blythe, I hate to bother you at such an early hour but may I ask you some questions about last night?',
     'Marguerite: Why certainly Mr. Detective, anything you need, and you can call me Marge.',
-    'Det. Blythe: Well thank-you, Marge... can you shed some light on this broken pearl necklace found near Leonard Van Dyke\'s room? I\'m sure you\'ve heard by now. It seems quite peculiar, doesn\'t it?',
+    'Det. Blythe: Well thank-you, Marge... can you shed some light on this broken pearl necklace found near Leonard Van dke\'s room? I\'m sure you\'ve heard by now. It seems quite peculiar, doesn\'t it?',
     'Marguerite: Oh, dear! That\'s one of my pearl necklaces! How on earth did it end up there? I had no idea it was missing.',
-    'Det. Blythe: You weren\'t near Mr. Van Dyke\'s quarters last night?',
+    'Det. Blythe: You weren\'t near Mr. Van dke\'s quarters last night?',
     'Marguerite: Heavens no, I want nothing to do with him. This zeppelin has its fair share of unsavory characters. Perhaps one of them targeted me? But why would anyone go to such lengths?',
-    'Det. Blythe: Would that aversion have anything to do with your sizeable debt to the Van Dyke estate?',
+    'Det. Blythe: Would that aversion have anything to do with your sizeable debt to the Van dke estate?',
     'Marguerite: My-My! Now, how would you know anything about that Mr. Blythe? Your assistant here gone sleuthing?',
-    'Det. Blythe: So you have no idea who may have harmed Mr. Van Dyke, nor why your necklace was found by his quarters?',
+    'Det. Blythe: So you have no idea who may have harmed Mr. Van dke, nor why your necklace was found by his quarters?',
     'Marguerite: I have no reason to harm Leonard, despite our differences or the supposed debt. I trust you\'ll find the real culprit. I\'m done answering questions now Detective, have a good day.',
     'Det. Blythe: Thank you for your time, Marge',
     'Marguerite: It\'s Mrs. Fontaine.',
@@ -654,23 +654,23 @@ const alexanderPetrov = {
   image: '../img/alexander.png',
 
 
-  evidence: 'Found a letter in Petrov\'s quarters hinting at a dispute over a diplomatic matter with Van Dyke.',
-  additionalEvidence: 'Alexander denies any involvement in the murder and maintains his innocence. The stolen painting is one of the artworks currently in dispute between him and Van Dyke. We have no concrete evidence linking Petrov to the crime at this point, but his behavior raises suspicions. He left me with a cryptic note about Van Dyke not being as he appears, maybe Van Dyke\'s son will know more?',
+  evidence: 'Found a letter in Petrov\'s quarters hinting at a dispute over a diplomatic matter with Van dke.',
+  additionalEvidence: 'Alexander denies any involvement in the murder and maintains his innocence. The stolen painting is one of the artworks currently in dispute between him and Van dke. We have no concrete evidence linking Petrov to the crime at this point, but his behavior raises suspicions. He left me with a cryptic note about Van dke not being as he appears, maybe Van dke\'s son will know more?',
 
   alibi: 'Alexander was seen chatting with the zeppelin\'s captain some time before the murder. They were both part of opposing forces during the war, why they would meet let alone conversate with one another is beyond me.',
   additionalAlibi: 'Petrov claims to have indeed had a conversation with Captain Wallace before the murder. The meeting was an opportunity for mutual respect after being adversaries during the war. No witnesses can confirm the interaction, but it appears unrelated to the crime. There are no witnesses to Alexander\'s whereabouts after he left the bridge.',
 
-  assistantNotes: 'Maybe we should look into the involvement in diplomatic affairs and any potential conflicts or disagreements he had with Leonard Van Dyke. Gather more details about the nature of the dispute mentioned in the letter found in Petrov\'s quarters. Or maybe inquire about the conversation between Petrov and the zeppelin\'s captain. Determine the purpose and content of their discussion, and ascertain if it has any relevance to the murder.',
+  assistantNotes: 'Maybe we should look into the involvement in diplomatic affairs and any potential conflicts or disagreements he had with Leonard Van dke. Gather more details about the nature of the dispute mentioned in the letter found in Petrov\'s quarters. Or maybe inquire about the conversation between Petrov and the zeppelin\'s captain. Determine the purpose and content of their discussion, and ascertain if it has any relevance to the murder.',
 
   evidenceConversation: [
     'Det. Blythe: Good morning, Mr. Petrov. I\'m Detective Blythe. I hope I\'m not interrupting anything, but I have a few questions to ask you regarding last night\'s events.',
     'Alexander: Good morning, Detective Blythe. Please, go ahead. I\'ll do my best to assist you.',
-    'Det. Blythe: During our investigation, my assistant found some letters in your cabin that mentioned a diplomatic issue with Leonard Van Dyke. Can you shed some light on that?',
-    'Alexander: Make a habit of sleuthing through people\'s belongings Mr. Blythe? The diplomatic matter pertains to an ownership dispute over certain artworks that Leonard Van Dyke possesses. My country believes that these artworks rightfully belong to us, as they hold significant cultural and historical value. He refuses to return or sell them, after he stole them.',
+    'Det. Blythe: During our investigation, my assistant found some letters in your cabin that mentioned a diplomatic issue with Leonard Van dke. Can you shed some light on that?',
+    'Alexander: Make a habit of sleuthing through people\'s belongings Mr. Blythe? The diplomatic matter pertains to an ownership dispute over certain artworks that Leonard Van dke possesses. My country believes that these artworks rightfully belong to us, as they hold significant cultural and historical value. He refuses to return or sell them, after he stole them.',
     'Det. Blythe: So, it\'s an ownership dispute over the paintings? Surely, an ownership dispute wouldn\'t be reason enough for someone to resort to murder, right?',
     'Petrov: Absolutely not, Detective. While the dispute is undoubtedly a source of tension, it would never justify such a heinous act. I maintain my innocence, and I assure you that I had no involvement in Leonard\'s untimely demise.',
-    'Det. Blythe: And yet, the painting stolen after Van Dyke\'s murder is precisely one of those paintings he allegedly refused to return, is it not?',
-    'Alexander: I understand your line of questioning, but I assure you that my pursuit of these artworks is within the bounds of international law and diplomatic negotiations. I am not involved in any criminal activities or acts of violence. And a final word of warning Detective, Leonard Van Dyke was not the man he appeared to be.',
+    'Det. Blythe: And yet, the painting stolen after Van dke\'s murder is precisely one of those paintings he allegedly refused to return, is it not?',
+    'Alexander: I understand your line of questioning, but I assure you that my pursuit of these artworks is within the bounds of international law and diplomatic negotiations. I am not involved in any criminal activities or acts of violence. And a final word of warning Detective, Leonard Van dke was not the man he appeared to be.',
     'Det. Blythe: Very well, Mr. Petrov. We will continue our investigation elsewhere. If there\'s any further information or evidence that comes to light, we may need to speak again. Thank you for your time.',
   ],
 
@@ -688,18 +688,18 @@ const alexanderPetrov = {
   ],
 
 
-  accusationExplanation: ['While the evidence may initially raise suspicions about Alexander Petrov\'s involvement in Van Dyke\'s murder, a closer examination reveals inconsistencies. Although Alexander had a diplomatic dispute with Leonard over the ownership of certain paintings, it does not provide a sufficient motive for murder. There is no concrete evidence linking Alexander to the actual theft, also Alexander\'s alibi for the night of the murder is supported by his interaction with Captain Wallace, with whom he shared a history of wartime conflict. Their meeting was an act of reconciliation, unrelated to Leonard\'s murder although politicians have a knack for lying and this could be an attempt by both him and Capt. Wallace to pull at the heart strings and quell suspicions. Additionally, there are no witnesses or substantial evidence placing Alexander at the scene of the crime. '],
+  accusationExplanation: ['While the evidence may initially raise suspicions about Alexander Petrov\'s involvement in Van dke\'s murder, a closer examination reveals inconsistencies. Although Alexander had a diplomatic dispute with Leonard over the ownership of certain paintings, it does not provide a sufficient motive for murder. There is no concrete evidence linking Alexander to the actual theft, also Alexander\'s alibi for the night of the murder is supported by his interaction with Captain Wallace, with whom he shared a history of wartime conflict. Their meeting was an act of reconciliation, unrelated to Leonard\'s murder although politicians have a knack for lying and this could be an attempt by both him and Capt. Wallace to pull at the heart strings and quell suspicions. Additionally, there are no witnesses or substantial evidence placing Alexander at the scene of the crime. '],
 };
 
-const jonathanVanDyke = {
+const jonathanVandke = {
   firstName: 'Jonathan',
-  lastName: 'Van Dyke',
-  fullName: 'Jonathan Van Dyke',
+  lastName: 'Van dke',
+  fullName: 'Jonathan Van dke',
   role: 'Estranged Son',
   image: '../img/jonathan.png',
 
   evidence: 'Initial search of Jonathan\'s messenger bag included an insurance policy taken out on the stolen painting in question.',
-  additionalEvidence: 'Jonathan admits to having financial troubles and considering stealing the painting to solve them. He had an insurance policy for the stolen painting as part of his plan, but someone else stole the painting before he could act. Jonathan maintains that he had nothing to do with the murder and was as shocked as anyone when he discovered the painting was already gone. Jonathan suggests to investigate the infirmary Doctor, who is keeping Leonard Van Dyke\'s body private.',
+  additionalEvidence: 'Jonathan admits to having financial troubles and considering stealing the painting to solve them. He had an insurance policy for the stolen painting as part of his plan, but someone else stole the painting before he could act. Jonathan maintains that he had nothing to do with the murder and was as shocked as anyone when he discovered the painting was already gone. Jonathan suggests to investigate the infirmary Doctor, who is keeping Leonard Van dke\'s body private.',
 
   alibi: 'Jonathan claims to have been in the library upon initial questioning, but the librarian has no recollection of him.',
   additionalAlibi: 'Jonathan admits attempting to steal the painting to settle his debts but discovered it was already gone upon arrival. He saw no body at the scene and hasn\'t been allowed to see his father\'s body by the doctor. Jonathan claims he had no involvement in his father\'s murder. We will investigate the doctor\'s decision to deny Jonathan access to the body. The focus now shifts to finding out who took the painting and their possible connection to the murder.',
@@ -734,7 +734,7 @@ const jonathanVanDyke = {
   ],
 
   accusationExplanation:
-    ['Despite Jonathan Van Dyke\'s involvement in the attempted theft of the painting, lack of direct involvement in the murder, and the absence of concrete evidence connecting him to the crime scene all contribute to his innocence. While his actions to steal from his father to pay gambling debts may have cast doubt on his character, it is crucial to look beyond this, he was forthright with information, and seems to be a terrible liar. I suspect he\'s been truthful so far and is not the perpetrator.'],
+    ['Despite Jonathan Van dke\'s involvement in the attempted theft of the painting, lack of direct involvement in the murder, and the absence of concrete evidence connecting him to the crime scene all contribute to his innocence. While his actions to steal from his father to pay gambling debts may have cast doubt on his character, it is crucial to look beyond this, he was forthright with information, and seems to be a terrible liar. I suspect he\'s been truthful so far and is not the perpetrator.'],
 
 };
 
@@ -746,25 +746,25 @@ const captainWallace = {
   image: '../img/captain.png',
 
   evidence: 'No physical evidence, but the Captain does have access to any cabin aboard the Sky Empress.',
-  additionalEvidence: 'Captain Wallace reveals that Leonard Van Dyke has caused harm and destruction to many individuals in the past through his reckless behavior. Wallace shares a personal experience where Van Dyke\'s actions led to a tragic incident, resulting in the loss of lives and leaving emotional scars on Wallace. Wallace has motive for wanting Van Dyke out of the picture but seems unlikely to be a culprit given Wallace\'s background and professionalism.',
+  additionalEvidence: 'Captain Wallace reveals that Leonard Van dke has caused harm and destruction to many individuals in the past through his reckless behavior. Wallace shares a personal experience where Van dke\'s actions led to a tragic incident, resulting in the loss of lives and leaving emotional scars on Wallace. Wallace has motive for wanting Van dke out of the picture but seems unlikely to be a culprit given Wallace\'s background and professionalism.',
 
   alibi: 'Capt. Wallace should have been speaking with Alexander Petrov at the time of the murder. According to Petrov.',
-  additionalAlibi: 'Captain Wallace provides an alibi, stating that he was on the bridge during the time of the murder, which is supported by crew members. His conversation with Alexander Petrov was centered on healing from the shared trauma of war, with no relevant details discussed. Wallace acknowledges Leonard Van Dyke\'s destructive actions and the potential motive it creates for others. However, he maintains his innocence and focuses on his role as the zeppelin\'s captain. Further investigation is necessary to determine his involvement, if any, in the murder.',
+  additionalAlibi: 'Captain Wallace provides an alibi, stating that he was on the bridge during the time of the murder, which is supported by crew members. His conversation with Alexander Petrov was centered on healing from the shared trauma of war, with no relevant details discussed. Wallace acknowledges Leonard Van dke\'s destructive actions and the potential motive it creates for others. However, he maintains his innocence and focuses on his role as the zeppelin\'s captain. Further investigation is necessary to determine his involvement, if any, in the murder.',
 
   assistantNotes: 'I don\'t have much information on Capt. Wallace, Petrov says he spoke to him last night before Petrov left to his cabin, but Wallace does have a key to all the cabins. Could Petrov have taken those keys at some point and committed the crime?',
 
   evidenceConversation: [
-    'Det. Blythe: Good afternoon, Captain Wallace. I hope I\'m not intruding, but I have a few questions I\'d like to ask you regarding Leonard Van Dyke\'s murder.',
+    'Det. Blythe: Good afternoon, Captain Wallace. I hope I\'m not intruding, but I have a few questions I\'d like to ask you regarding Leonard Van dke\'s murder.',
 
     'Wallace: Detective Blythe, pleasure to have you on board. What can I assist you with?',
 
     'Det. Blythe: I understand you have access to all the cabins aboard the zeppelin. Which would make it convenient if anyone were to want to cause harm to a passenger if they got their hands on that master key set.',
 
-    'Capt. Wallace: I keep the master keys on me at all times, never left my side. And yes, Leonard Van Dyke. That man has caused untold destruction and brought harm to countless individuals throughout his escapades. I, too, have been on the receiving end of his reckless behavior.',
+    'Capt. Wallace: I keep the master keys on me at all times, never left my side. And yes, Leonard Van dke. That man has caused untold destruction and brought harm to countless individuals throughout his escapades. I, too, have been on the receiving end of his reckless behavior.',
 
     'Det. Blythe: Can you elaborate on that? How has Leonard harmed you in the past?',
 
-    'Capt. Wallace: Years ago, he hired me to pilot an expedition. The journey started with grand ambitions, but Van Dyke\'s disregard for safety and his lust for adventure led to a disastrous incident. Lives were lost, and some of them were dear friends of mine. I hold Van Dyke responsible for that tragedy.',
+    'Capt. Wallace: Years ago, he hired me to pilot an expedition. The journey started with grand ambitions, but Van dke\'s disregard for safety and his lust for adventure led to a disastrous incident. Lives were lost, and some of them were dear friends of mine. I hold Van dke responsible for that tragedy.',
 
     'Det. Blythe: I see. That explains your animosity towards him. Given your history, Captain, I can understand why you might have a motive for wanting Leonard out of the picture. However, I must clarify that having a motive doesn\'t make you guilty of the crime, but it cause suspicion.',
 
@@ -798,18 +798,18 @@ const captainWallace = {
   accusationExplanation: ['While Capt. Wallace may have a troubled history with Leonard, there is insufficient evidence to support his direct involvement in the murder. The alibi, lack of motive, and limited evidence point away from him as the perpetrator. It is crucial to consider the broader context of the case and explore the motives and actions of Leonard himself, who emerges as a central figure in this complex mystery.'],
 };
 
-const leonardVanDyke = {
+const leonardVandke = {
   firstName: 'Leonard',
-  lastName: 'Van Dyke',
-  fullName: 'Leonard Van Dyke',
+  lastName: 'Van dke',
+  fullName: 'Leonard Van dke',
   role: 'Famed Adventurer',
   image: '../img/leonard.png',
 
-  evidence: 'Nothing of value was found inside Van Dyke\'s cabin. It was oddly well kept and organized. Almost no personal affects',
+  evidence: 'Nothing of value was found inside Van dke\'s cabin. It was oddly well kept and organized. Almost no personal affects',
 
-  alibi: 'Van Dyke was last seen outside on the decks of the zeppelin last night. Telling Stories of his adventures with the other passengers.',
+  alibi: 'Van dke was last seen outside on the decks of the zeppelin last night. Telling Stories of his adventures with the other passengers.',
 
-  accusationExplanation: ['Ladies and gentlemen, esteemed guests, and my ever-vigilant assistant, Fitzgerald. As we gather here to reflect on the perplexing case of Leonard Van Dyke\'s disappearance, I am compelled to share with you the depths of the enigma we have encountered. Throughout our investigation, we meticulously examined every aspect of the evidence, delving into the motives and alibis of each suspect. Yet, despite our efforts, a fog of uncertainty lingers. One crucial piece of information has come to light. It appears that the doctor aboard this zeppelin, in a rather peculiar act, concealed the fact that Leonard Van Dyke\'s body had mysteriously vanished in the early hours of the morning. This revelation raises the stakes and deepens the intrigue surrounding this case. Moreover, the painting that Leonard cherished so dearly has vanished without a trace, echoing his own disappearance. How could such valuable artifacts vanish from within these walls?','As we sifted through the clues, we encountered contradictions and inconsistencies that defied easy explanation. Clara Deveraux\'s artistic resentment, Marguerite Fontaine\'s financial troubles, Alexander Petrov\'s diplomatic disputes, Jonathan Van Dyke\'s desperate intentions—all, and Capt. Wallace\'s grudge for a tragedy caused by Leonard himself. All intriguing, yet none fully fitting the puzzle. In light of these perplexities, we must consider the possibility that Leonard Van Dyke\'s disappearance was not a result of happenstance. Instead, it points to a meticulously crafted plan, masterminded by a figure lurking in the shadows. The orchestration of this elaborate scheme leaves us questioning the true nature of events. The evidence before us does not align seamlessly. It seems we are facing an enigma that reaches beyond the confines of a simple murder. A shadowy web of manipulation and deception has been woven, obscuring the truth and leaving us with more questions than answers. Let us embark on this next phase of our investigation with unwavering determination, for the road ahead promises greater challenges and revelations. The truth may be elusive, but we shall not rest until we have unraveled this intricate tapestry of deception and have found Mr. Leonard Van Dyke.'],
+  accusationExplanation: ['Ladies and gentlemen, esteemed guests, and my ever-vigilant assistant, Fitzgerald. As we gather here to reflect on the perplexing case of Leonard Van dke\'s disappearance, I am compelled to share with you the depths of the enigma we have encountered. Throughout our investigation, we meticulously examined every aspect of the evidence, delving into the motives and alibis of each suspect. Yet, despite our efforts, a fog of uncertainty lingers. One crucial piece of information has come to light. It appears that the doctor aboard this zeppelin, in a rather peculiar act, concealed the fact that Leonard Van dke\'s body had mysteriously vanished in the early hours of the morning. This revelation raises the stakes and deepens the intrigue surrounding this case. Moreover, the painting that Leonard cherished so dearly has vanished without a trace, echoing his own disappearance. How could such valuable artifacts vanish from within these walls?','As we sifted through the clues, we encountered contradictions and inconsistencies that defied easy explanation. Clara Deveraux\'s artistic resentment, Marguerite Fontaine\'s financial troubles, Alexander Petrov\'s diplomatic disputes, Jonathan Van dke\'s desperate intentions—all, and Capt. Wallace\'s grudge for a tragedy caused by Leonard himself. All intriguing, yet none fully fitting the puzzle. In light of these perplexities, we must consider the possibility that Leonard Van dke\'s disappearance was not a result of happenstance. Instead, it points to a meticulously crafted plan, masterminded by a figure lurking in the shadows. The orchestration of this elaborate scheme leaves us questioning the true nature of events. The evidence before us does not align seamlessly. It seems we are facing an enigma that reaches beyond the confines of a simple murder. A shadowy web of manipulation and deception has been woven, obscuring the truth and leaving us with more questions than answers. Let us embark on this next phase of our investigation with unwavering determination, for the road ahead promises greater challenges and revelations. The truth may be elusive, but we shall not rest until we have unraveled this intricate tapestry of deception and have found Mr. Leonard Van dke.'],
 };
 
 // this code provides a mechanism to display a conversation between a player and a character in a sequential manner. The conversation is stored in an array, and each line of conversation is displayed either as player speech or character speech based on the index.
@@ -941,8 +941,8 @@ function logJonathon() {
   }
   const evidence = document.createElement('p');
   const alibi = document.createElement('p');
-  evidence.innerText = `Jonathan's Evidence: ${jonathanVanDyke.evidence}`;
-  alibi.innerText = `Jonathan's Alibi: ${jonathanVanDyke.alibi}`;
+  evidence.innerText = `Jonathan's Evidence: ${jonathanVandke.evidence}`;
+  alibi.innerText = `Jonathan's Alibi: ${jonathanVandke.alibi}`;
   jonLog.appendChild(evidence);
   jonLog.appendChild(alibi);
   if (user.jonathanAlibi) {
