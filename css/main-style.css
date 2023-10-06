@@ -405,9 +405,8 @@ word-wrap: break-word;
   height: 100%;
   background-color: rgba(0,0,0,0.7);
   z-index: 1000;
-  display: flex; /* add this */
-  justify-content: center; /* horizontally center */
-  align-items: center; /* vertically center */
+  justify-content: center; 
+  align-items: center; 
 }
 
 
