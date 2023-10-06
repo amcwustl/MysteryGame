@@ -86,6 +86,9 @@ function initializeForm() {
   nameForm.addEventListener("submit", function(event) {
     event.preventDefault();
     userNameInput();
+    let submitButton = event.target.querySelector('button[type="submit"]');
+    submitButton.textContent = 'Username Submitted';
+    submitButton.style.backgroundColor = 'green';
     this.reset();
   });
 }
