@@ -38,12 +38,21 @@ body {
 }
 
 .back-game {
-  padding: 8px 16px;
+  display: inline-block;
+  padding: 10px 20px;
   background-color: #b62e2e;
   color: #fff;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-game:hover {
+  background-color: #0056b3;
 }
 
 main {

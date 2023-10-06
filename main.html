@@ -21,7 +21,8 @@
   <header class="header">
     <h1>Midnight Marauder - Murder on the Sky Empress</h1>
     <nav>
-      <a href="about.html">About Our Team</a>
+      <button id="show-instructions">How To Play</button>
+      <a class="about-link" href="about.html">About Our Team</a>
     </nav>
   </header>
   <main>
@@ -90,6 +91,20 @@
       id="accuseAlexander">Accuse Alexander</button><button id="accuseJonathan">Accuse Jonathan</button><button
       id=accuseWallace>Accuse Wallace</button><button id="accuseLeonard">Accuse Leonard</button>
   </section>
+  <div class="instructions-modal" id="instructionsModal">
+    <div class="modal-content">
+        <span class="close-button" id="closeButton">&times;</span>
+        <h2>How To Play</h2>
+        <ul>
+          <li>Your assistant detective has already gathered basic information about the alibis and any available evidence for all of the suspects. To view this information, simply open the logbook by selecting the logbook button.</li>
+          <li>In order to further question a suspect, bring them into another room for discussion by clicking on the character. Be careful, you will only be able to pull each character aside once.</li>
+          <li>When one on one with a suspect, you can either ask them for further information about their alibi, or seach their room for clues related to the mystery. Choose wisely, you will only be able to select one of the two options for each character.</li>
+          <li>After questioning any character, the additional information you have gained will appear in the logbook. You may refer back to it at any time.</li>
+          <li>Once you think you have enough evidence to solve the mystery, you can make an accusation by clicking the accuse button below the person you think is responsible. If you are correct, a log will pop up telling you that you have solved the mystery. If you are incorrect, the log will pop up and tell you how many guessues you have remaining.</li>
+          <li>You will get three guesses to solve the mystery. If you need to close your window at any time, you can reopen the site and just plug in the same username. Your progress in the game will be maintained.</li>
+        </ul>
+    </div>
+</div>
   <script src="js/app.js"></script>
 </body>
 
