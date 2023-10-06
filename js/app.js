@@ -1012,4 +1012,12 @@ function openLogBook() {
   }
 }
 
+document.getElementById('show-instructions').addEventListener('click', function() {
+  document.getElementById('instructionsModal').style.display = 'flex';
+});
+
+document.getElementById('closeButton').addEventListener('click', function() {
+  document.getElementById('instructionsModal').style.display = 'none';
+});
+
 
