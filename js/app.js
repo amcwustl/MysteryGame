@@ -154,6 +154,7 @@ function revertChanges() {
 function hideLogText() {
   logbook1.classList.add('hidden');
   logbook2.classList.add('hidden');
+  noteBook.classList.add('hidden');
 }
 
 //These character click functions handle the transition cutscenes resulting from the user clicking on an individual character.  First the function checks to see if we are already in a cutscene via the character name === true/false.  If we are not in a cutscene, it changes the background, moves the grid area where the character is rendered.  Hides all other main characters via the hideImages(), unhides the detectives, unhides the conversation window, unhides the alibi and evidence buttons, resets the character global value to true so the program knows we are in a cutscene, and adds event listeners for the alibi and evidence conversation buttons.
@@ -175,7 +176,7 @@ function claraClick() {
     accuseDiv.classList.add('hidden');
   } else {
     while(playerSpeechElement.firstChild) {
-      playerSpeechElement.removeChild(playerSpeechElement.firstChild)
+      playerSpeechElement.removeChild(playerSpeechElement.firstChild);
     }
     mainBackground.style.backgroundImage = 'url("img/airship1.png")';
     claraDiv.style.gridArea = '2 / 1 / 3 / 2';
@@ -208,7 +209,7 @@ function margueriteClick() {
     accuseDiv.classList.add('hidden');
   } else {
     while(playerSpeechElement.firstChild) {
-      playerSpeechElement.removeChild(playerSpeechElement.firstChild)
+      playerSpeechElement.removeChild(playerSpeechElement.firstChild);
     }
     mainBackground.style.backgroundImage = 'url("img/airship1.png")';
     margueriteDiv.style.gridArea = '2 / 2 / 3 / 3';
@@ -241,7 +242,7 @@ function alexanderClick() {
     accuseDiv.classList.add('hidden');
   } else {
     while(playerSpeechElement.firstChild) {
-      playerSpeechElement.removeChild(playerSpeechElement.firstChild)
+      playerSpeechElement.removeChild(playerSpeechElement.firstChild);
     }
     mainBackground.style.backgroundImage = 'url("img/airship1.png")';
     alexanderDiv.style.gridArea = '2 / 3 / 3 / 4';
@@ -274,7 +275,7 @@ function jonathanClick() {
     accuseDiv.classList.add('hidden');
   } else {
     while(playerSpeechElement.firstChild) {
-      playerSpeechElement.removeChild(playerSpeechElement.firstChild)
+      playerSpeechElement.removeChild(playerSpeechElement.firstChild);
     }
     mainBackground.style.backgroundImage = 'url("img/airship1.png")';
     jonathanDiv.style.gridArea = '2 / 4 / 3 / 5';
@@ -307,7 +308,7 @@ function wallaceClick() {
     accuseDiv.classList.add('hidden');
   } else {
     while(playerSpeechElement.firstChild) {
-      playerSpeechElement.removeChild(playerSpeechElement.firstChild)
+      playerSpeechElement.removeChild(playerSpeechElement.firstChild);
     }
     mainBackground.style.backgroundImage = 'url("img/airship1.png")';
     wallaceDiv.style.gridArea = '2 / 5 / 3 / 6';
@@ -339,7 +340,7 @@ function leonardClick() {
     user.Leonard = true;
   } else {
     while(playerSpeechElement.firstChild) {
-      playerSpeechElement.removeChild(playerSpeechElement.firstChild)
+      playerSpeechElement.removeChild(playerSpeechElement.firstChild);
     }
     mainBackground.style.backgroundImage = 'url("img/airship1.png")';
     leonardDiv.style.gridArea = '2 / 6 / 3 / 7';
